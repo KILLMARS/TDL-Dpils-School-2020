@@ -68,3 +68,60 @@ for (let i = 0; i < ages.length; i++){
 }
 
 //Ilmarz
+//ilmarz2
+//Push 3
+
+function greet(){
+    console.log('Hello there')
+}
+
+greet();
+
+const speak = function(name = 'Max', surename = 'Asshole'){
+    console.log(`Hello ${name} ${surename}`)
+}
+speak();
+
+const calcuateArea = function(radius){
+    let area= 3.14 * radius**2;
+    return area ;
+}
+const myCircle = calcuateArea(5);
+console.log(myCircle)
+
+const bill = function(product, tax){
+    let total = 0;
+    for (let i = 0; 1 < product.lenght; i++){
+        total  += product [i] + product[i] * tax;
+    }
+    return total;
+}
+
+let people= ["max","dragon","kuksk"];
+people.forEach(person=>{
+    console.log(person);
+})
+
+//task
+
+
+var numbers = [-15,88, 93, 14 ,44];
+numbers.sort()
+console.log(numbers);
+
+//zzzzzzzzz
+
+
+var numbers = [88,93,14, 44, 100000, 355,355,-13, 1];
+function sortNumber(a,b)
+{
+    return a - b;
+}
+console.log(numbers.sort(sortNumber));
+
+//zzzzzzz
+
+let numberszz = [88,93,14, 44, -600,100000, 355, 3];
+numberszz.sort((a, b)=> a - b);
+console.log(numberszz)
+/// commmit2
